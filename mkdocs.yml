@@ -1,8 +1,12 @@
 site_name: aleksandr-makarov-dev.github.io
+repo_url: https://github.com/aleksandr-makarov-dev/aleksandr-makarov-dev.github.io
+repo_name: aleksandr-makarov-dev/aleksandr-makarov-dev.github.io
+edit_uri: edit/main/docs/
 theme:
   name: material
   icon:
     logo: material/code-array
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -18,6 +22,7 @@ theme:
   features:
     - content.code.copy
     - navigation.top
+    - navigation.sections
     - content.action.edit
 markdown_extensions:
   - pymdownx.superfences:
